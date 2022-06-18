@@ -18,8 +18,17 @@
 	width:99.9%;
 }
 
+#button, #button2{
+	transition-duration:0.25s;
+}
+
+#try:hover, #right div:hover, #center div:hover{
+	cursor:pointer;
+}
+
 #button:hover, #button2:hover{
 	cursor:pointer;
+	background-color: hsl(322, 100%, 66%, 0.5);
 }
 
 /*Desktop*/
